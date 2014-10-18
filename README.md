@@ -3,6 +3,8 @@ nodeonly-util
 
 nodeonly-utilv is a npm for dev lib for node express utils
 
+[![NPM version](https://badge.fury.io/js/nodeonly-util.svg)](http://badge.fury.io/js/nodeonly-util)
+
 ## module list
 
  - base64
