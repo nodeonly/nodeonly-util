@@ -1,11 +1,21 @@
 {
-    "name": "nodeonly-util",
-    "version": "0.0.2",
-    "author": "Alfred Sang",
-    "description": "自己平时在工作中积累以及收集的一些工具类库",
-    "keywords": ["libs", "url"],
-    "repository": "https://github.com/nodeonly/nodeonly-util.git",
-    "dependencies": {
-    },
-    "main": "index"
+  "name": "nodeonly-util",
+  "version": "0.0.2",
+  "author": "Alfred Sang",
+  "description": "自己平时在工作中积累以及收集的一些工具类库",
+  "keywords": [
+    "libs",
+    "url"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -u tdd"
+  },
+  "repository": "https://github.com/nodeonly/nodeonly-util.git",
+  "dependencies": {},
+  "main": "index",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^1.21.5",
+    "sinon": "^1.10.3"
+  }
 }
