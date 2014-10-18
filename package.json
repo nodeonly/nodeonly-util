@@ -1,21 +1,40 @@
 {
   "name": "nodeonly-util",
-  "version": "0.0.2",
-  "author": "Alfred Sang",
-  "description": "dev lib for node express utils",
-  "keywords": [
-    "libs",
-    "url"
-  ],
-  "scripts": {
-    "test": "./node_modules/.bin/mocha -u tdd"
+  "version": "1.0.0",
+  "description": "nodeonly-util dev lib for node express utils",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
   },
-  "repository": "https://github.com/nodeonly/nodeonly-util.git",
-  "dependencies": {},
-  "main": "index",
+  "keywords": [
+		"npm",
+    "nodejs",
+    "node utils",
+		"express",
+		"mongo",
+		"mongodb",
+		"mongoose"
+  ],
+  "dependencies": {
+    "chai": "^1.9.2",
+    "sinon": "^1.10.3"
+  },
   "devDependencies": {
     "chai": "^1.9.2",
     "mocha": "^1.21.5",
     "sinon": "^1.10.3"
-  }
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -u tdd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodeonly/nodeonly-util.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nodeonly/nodeonly-util/issues"
+  },
+  "homepage": "https://github.com/nodeonly/nodeonly-util"
 }
