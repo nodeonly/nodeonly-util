@@ -1,0 +1,11 @@
+{
+    "name": "nodeonly-util",
+    "version": "0.0.2",
+    "author": "Alfred Sang",
+    "description": "自己平时在工作中积累以及收集的一些工具类库",
+    "keywords": ["libs", "url"],
+    "repository": "https://github.com/nodeonly/nodeonly-util.git",
+    "dependencies": {
+    },
+    "main": "index"
+}
