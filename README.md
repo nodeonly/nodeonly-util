@@ -17,6 +17,10 @@ nodeonly-utilv is a npm for dev lib for node express utils
 	npm test
 
 
+## depts
+
+- winston
+
 ## 相关网址
 
 - https://github.com/visionmedia/mocha
