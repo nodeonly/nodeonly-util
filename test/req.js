@@ -35,15 +35,5 @@ describe('RequestUtils', function(){
 			  });
 
     })
-  })
-  //
-  // describe('#base64_decode()', function(){
-  //   it('should return nodeonly when base64_decode bm9kZW9ubHk=', function(){
-  // 			var base64_encode_str = "bm9kZW9ubHk"
-  // 			var result_str = Base64.base64_decode(base64_encode_str);
-  //
-  // 			assert.equal(result_str, 'nodeonly');
-  //   })
-  // })
-  
+  })//end  
 })
