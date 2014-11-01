@@ -12,6 +12,22 @@ nodeonly-utilv is a npm for dev lib for node express utils
  - url
  - prototype
 
+## Usage
+
+	var app = express();
+
+	// Make our db accessible to our router
+	app.use(function(req,res,next){
+	    ...
+			req.tools = require('./utils');
+	    next();
+	});
+
+	app.post('/new', function(req, res) {
+		var name = req.tools.req.get_value_from_body(req, 'display_name');
+		...
+	}
+
 ## 测试
 
 	npm test
