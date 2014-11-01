@@ -2,13 +2,15 @@ var assert = require('chai').assert;
 var expect = require('chai').expect;
 require('chai').should();
 
-var RequestUtils = require('../index');
+var Utils = require('../index');
+
+console.log(Utils)
 
 var request = require('supertest')
   , express = require('express');
 
 
-describe('RequestUtils', function(){
+describe('Utils.req', function(){
   describe('#get_value_from_body()', function(){
     it('should return Manny when get_value_from_body with key name', function(done){
 
@@ -18,10 +20,10 @@ describe('RequestUtils', function(){
 				// mock req.body data
 				req.body = { 'name': 'Manny', 'species': 'cat' };
 				
-				var species = RequestUtils.get_value_from_body(req, 'name');
-				assert.equal(species, 'Manny');
+				var Manny = Utils.req.get_value_from_body(req, 'name');
+				assert.equal(Manny, 'Manny');
 				
-		 	 	var species = RequestUtils.get_value_from_body(req, 'species');
+		 	 	var species = Utils.req.get_value_from_body(req, 'species');
 				assert.equal(species, 'cat');
 				
 				done();

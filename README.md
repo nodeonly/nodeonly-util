@@ -19,7 +19,6 @@ nodeonly-utilv is a npm for dev lib for node express utils
 
 ## depts
 
-- winston
 
 ## 相关网址
 
