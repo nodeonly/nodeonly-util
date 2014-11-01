@@ -2,7 +2,7 @@ var assert = require('chai').assert;
 var expect = require('chai').expect;
 require('chai').should();
 
-var RequestUtils = require('../lib/req');
+var RequestUtils = require('../index');
 
 var request = require('supertest')
   , express = require('express');
