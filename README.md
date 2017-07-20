@@ -38,10 +38,10 @@ nodeonly-utilv is a npm for dev lib for node express utils
 
 ## 相关网址
 
-- https://github.com/visionmedia/mocha
+- https://github.com/mochajs/mocha
 - https://github.com/chaijs/chai
 - http://chaijs.com/
-- http://visionmedia.github.io/mocha/
+- http://mochajs.org/
 
 
 ## Contributing
